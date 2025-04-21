@@ -62,7 +62,7 @@
     color: #3ea6ff;
     background-color: rgb(36,36,36);
     border: 2px solid;
-    margin: 0;
+    margin: 0px;
     padding: 0.5rem;
-    border-radius: 0.1rem;
+    border-radius: 10px;
 }
