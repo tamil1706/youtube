@@ -28,9 +28,9 @@ const Createeditchannel = ({seteditcreatechanelbtn}) => {
     <div className="container_CreateEditChanel">
         <input type="submit" name='text' value={'X'} className="ibtn_x" onClick={()=>seteditcreatechanelbtn(false)}/>
         <div className="container2_CreateEditChanel">
-            <h1>{currentuser?.result?.name ? <>Edit</>:<>Craete</>} Your Channel</h1>
-            <input type="text" placeholder='Enter Your/Chanel Name' name='text' value={name} onChange={(e)=>setaname(e.target.value)} className="ibox" />
-            <textarea type="text" rows={15} placeholder='Enter Chanel Description' className='ibox' value={desc} onChange={(e)=>setdesc(e.target.value)} id=""></textarea>
+            <h1>{currentuser?.result?.name ? <>Edit</>:<>Create</>} Your Channel</h1>
+            <input type="text" placeholder='Enter Your/Channel Name' name='text' value={name} onChange={(e)=>setaname(e.target.value)} className="ibox" />
+            <textarea type="text" rows={15} placeholder='Enter Channel Description' className='ibox' value={desc} onChange={(e)=>setdesc(e.target.value)} id=""></textarea>
             <input type="submit" value={"submit"} onClick={handlesubmit} className="ibtn" />        
         
         </div>
